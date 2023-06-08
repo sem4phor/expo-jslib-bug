@@ -17,8 +17,8 @@ import Svg, { Path } from 'react-native-svg';
 export const App = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
   const scrollViewRef = useRef<null | ScrollView>(null);
-  console.log(explib())
-  console.log(mylib())
+  console.log(explib());
+  console.log(mylib());
   return (
     <>
       <StatusBar barStyle="dark-content" />
